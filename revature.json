@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/PlayerTest.java",
+      "testCases": [
+        {
+          "methodName": "player1ArgConstructorTest1",
+          "label": "Verify single-argument constructor with 'Frodo'",
+          "description": "Tests that creating a Player with name 'Frodo' correctly sets playerName to 'Frodo' and initializes level to 1"
+        },
+        {
+          "methodName": "player1ArgConstructorTest2",
+          "label": "Verify single-argument constructor with 'Sam'",
+          "description": "Tests that creating a Player with name 'Sam' correctly sets playerName to 'Sam' and initializes level to 1"
+        },
+        {
+          "methodName": "player2ArgConstructorTest1",
+          "label": "Verify two-argument constructor with name and level",
+          "description": "Tests that creating a Player with name 'Gollum' and level 5 correctly sets playerName to 'Gollum' and level to 5"
+        }
+      ]
+    }
+  ]
+}
